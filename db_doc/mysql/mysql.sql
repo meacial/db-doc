@@ -9,3 +9,14 @@
 
 -- 4、查询访问记录
   show full processlist;
+  show engine innodb status;
+  show processlist;
+
+-- 5、数据库修改
+  ALTER TABLE `table_name` ADD|DROP INDEX `index_name` (`col_name`); -- 创建索引
+  ALTER TABLE `table_name` ADD|DROP  UNIQUE `index_name` (`col_name`);  -- 创建唯一索引
+  ALTER TABLE `table_name` ADD|DROP  PRIMARY `index_name` (`col_name`); -- 创建主键
+
+
+
+
